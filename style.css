@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Roboto:wght@500&display=swap');
 body{
     margin:0; 
     padding:0;
-    background-color: #E7F5D6;
+    /*background-color: #E7F5D6;*/
+    overflow-x: hidden;
 }
 #navbar {
     background-color: #146652;
@@ -17,11 +19,12 @@ body{
     float: left;
     font-size: 16px;
     font-weight: bold;
-    margin-right:25px;
+    margin-right:10px;
+    margin-left:10px;
     display: block;
     color: #e7f5d6;
-    text-align: center;
-    padding: 0 16px;
+    text-align: start;
+    padding: 0 25px;
     text-decoration: none;
     line-height: 100px; /* 將文本垂直居中，與navbar高度相匹配 */
 }
@@ -42,3 +45,83 @@ body{
 #navbar .item {
     margin-left: 450px;
 }
+
+.div-12 {
+    /*background-color: #e7f5d6;*/
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 1px;
+  }
+
+  .div-13 {
+    disply: flex;
+    flex-direction: column;
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-4 {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: -1;
+    max-width: 100%;
+  } 
+  .div-14 {
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: start;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+
+  .div-15 {
+    color: #fff;
+    width: 600px;
+    /*letter-spacing: 4.2px;*/
+    margin-top: 18px;
+    margin-left: 80px;
+    flex-grow: 1;
+    flex-basis: 0%;
+    font-family: 'DM Serif Display', serif;
+    font-size: 100px;
+  }
+
+  .div-16 {
+    border: 10px solid #e7f5d6;
+    backdrop-filter: blur(6px);
+    background-color: rgba(96, 175, 83, 0.18);
+    align-self: stretch;
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0%;
+    flex-direction: column;
+    padding: 22px 18px;
+    margin-left: 400px;
+    margin-right: 200px;
+  }
+ 
+  .img-5 {
+    aspect-ratio: 1.68;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 50px;
+  }
+
+  .div-17 {
+    color: #fff;
+    letter-spacing: 0.2px;
+    margin-top: 60px;
+    font: 300 25px/31px Yu Gothic UI, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
